@@ -24,6 +24,11 @@ android {
             debuggable true
             testCoverageEnabled true
         }
+        prod {
+            minifyEnabled true
+            debuggable false
+            testCoverageEnabled true
+        }
     }
 }
 
